@@ -54,4 +54,8 @@ public class UserTest {
         this.user.setLastName("2");
         assertEquals("2", this.user.getLastName());
     }
+
+    @Test
+    public void getNameCatalogs() {
+    }
 }

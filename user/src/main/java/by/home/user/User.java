@@ -1,6 +1,8 @@
 package by.home.user;
 
 
+import by.home.library.Lib;
+
 public class User {
     private String  id;
     private String firstName;
@@ -28,6 +30,10 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getNameCatalogs(Lib lib) {
+        return lib.getNameOfElectronicCatalogs();
     }
 
 }
